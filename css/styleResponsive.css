@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+
+    .logo img {
+        display: block;
+        width: 300px;
+    }
+
+    .menu nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    .carousel-inner {
+        height: 400px;
+    }
+
+    .carousel-inner img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .servicios {
+        width: 90%;
+        margin: auto;
+    }
+
+    .list-servicios ul {
+        padding: 0;
+    }
+
+    .servicio-item .item-servicios {
+        padding: 5px 0;
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    .servicio-item .item-servicios img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .datos {
+        flex-direction: column-reverse;
+    }
+
+    .datos .img-contacto {
+        width: 100%;
+    }
+
+    .datos-personales ul {
+        padding: 0;
+    }
+
+    .datos-personales {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
