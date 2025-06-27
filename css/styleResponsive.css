@@ -5,10 +5,15 @@
         width: 300px;
     }
 
+    .menu nav {
+        text-align: center;
+        align-items: center;
+    }
+
     .menu nav ul {
         display: block;
-        text-align: center;
-        margin: 20px;
+        align-items: center;
+        padding: 0;
     }
 
     .carousel-inner {
